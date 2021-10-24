@@ -88,9 +88,10 @@ def main():
         for idx, attr in enumerate(options_chosen[0], 1):
             if chosen_option_number == idx:
                 attr_chosen = attr
-            
+                break
+
         businesses = get_businesses(attr_chosen, business_reviews, cut_off=cut_off, top_n_nouns=top_n_nouns) 
-        print(f"You chose {attr}\nHere are the top businesses that best match your chosen option."
+        print(f"You chose {attr_chosen}\nHere are the top businesses that best match your chosen option."
               f"(Cut-off={cut_off})\n")
         print(f"Top businesses matching your search:\n")
         for business in businesses:
@@ -102,7 +103,8 @@ def main():
             for sentiment, sentiment_score in business.sentiment.items():
                 print(f"{sentiment} reviews: {sentiment_score}\n")
 
-            print(f"\n\n\n")
+            print(f"\n")
+        print(f"\n\n")
 
     print("ok bye")
 
