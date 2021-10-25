@@ -26,9 +26,9 @@ pandas == 1.3.3
 
 numpy == 1.19.2
 
-ndjson == 2.0
-
 matplotlab == 3.4.2
 
 
+**Running of the files**
+Since all of our work is jupyter notebook format, they are ready to be run if the relevant packages are installed correctly in the environment and data paths are followed correctly.
 
