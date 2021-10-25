@@ -18,6 +18,8 @@ Task Allocation:
 
 **Third party libraries (install via python pip):**
 
+python >= 3.8
+
 nltk == 3.6.5
 
 spacy == 3.1.3
