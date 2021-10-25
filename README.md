@@ -1,7 +1,7 @@
 # CZ4045 Assignment Part 1
 **Authors: Shen Guangxu, Wang Guanlan, Kane Wu Bo Dong, Elaine Pak Xinyi, Toh Shengrong**
 
-**Task Allocation: **
+**Task Allocation:**
 
 **Tokenization & Stemming:** Wang Guanlan
 
