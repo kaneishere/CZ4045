@@ -1,6 +1,6 @@
 # CZ4045 Assignment Part 1
-Authors: Shen Guangxu, Wang Guanlan, Kane Wu Bo Dong, Elaine Pak Xinyi, Toh Shengrong
-
+**Authors: Shen Guangxu, Wang Guanlan, Kane Wu Bo Dong, Elaine Pak Xinyi, Toh Shengrong
+**
 Task Allocation: 
 
 **Tokenization & Stemming:** Wang Guanlan
@@ -31,7 +31,7 @@ numpy == 1.19.2
 matplotlab == 3.4.2
 
 
-**Running of the files**\
+**Running the files**\
 Since all of our work is jupyter notebook format, they are ready to be run if the relevant packages are installed correctly in the environment and data paths are followed correctly.
 
 **Running the application**\
